@@ -1,0 +1,30 @@
+﻿.parent {
+    display: flex; /* потомки будут флекс элементами */
+    width: 1921px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.child {
+    width: 100px;
+    height: 79px;
+    border: 1px solid black;
+}
+.bigparent {
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height: 747px;
+    border: 1px solid black;
+}
+.bigchild {
+    width: 309px;
+    height: 422px;
+    border: 1px solid black;
+}
+.footer {
+    display: flex;
+    width: 1920px;
+    height: 80px;
+    border: 1px solid black;
+}
